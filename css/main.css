@@ -5,10 +5,10 @@
 body { font-family: 'Iropke Batang', serif; }
 
 
-
 .bodyText {
     display: inline-block;
     width: 80%;
+    font-size: 3vw;
 }
 
 .goButton {
