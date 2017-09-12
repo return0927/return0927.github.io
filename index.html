@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html lang="ko">
 
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type" content="text/html;"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="X-Content-Type-Options=nosniff"/>
+    <meta http-equiv="Content-Security-Policy" content="child-src 'none'; object-src 'none'"/>
+    <meta http-equiv="content-language" content="ko"/>
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/input.css" />
+    <link rel="stylesheet" type="text/css" href="css/checkbox.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <title>Forever KKuTuKorea, Forever CLIMAX</title>
+</head>
+
+<body>
+    <div id="center">
+        <div id="move">
+            <h1>Forever KKuTuKorea, Forever CLIMAX</h1><br/>
+            <h2>2017년 2월</h2>
+            <p class="bodyText">
+                끄투코리아 일을 시작한지 벌써 8개월이 지났습니다.<br />
+                방학에 아무 생각없이 고등학교 갈 생각은 안하고 집에서 컴퓨터만 하면서<br />
+                하루하루를 그저 버리고 있었습니다.<br /><br />
+                서울에서 대운이와 유니패드 운영팀 정모를 하다가<br />
+                새벽에 끄투 본섭을 처음 플레이해봤습니다.<br />
+                새벽 한창을 끄투로 보내다가 그 다음날 서울 창조경제혁신센터에서 <font color="red">쫓겨나듯</font>이 나왔습니다.<br />
+            </p>
+
+            <h2>How to participate?</h2>
+            <p class="bodyText">아래의 <strong><font color="#6495ed">이동하기</font></strong> 버튼을 눌러 이동하여 안내되는 메세지를 따라주세요. 이용약관은 <a target="_blank" href="/agreement.html">여기</a>를 클릭하시면 보실 수 있습니다.</p>
+
+
+            <div id="footer">
+                <hr id="hr"/>
+                <p>
+                <p class="bodyText">
+                    <a target="_blank" href="https://fb.com/r3turn.01">
+                        <i title="페이스북" class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a target="_blank" href="https://github.com/return0927">
+                        <i title="깃허브" class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a target="_blank" href="mailto:bjleh0927@gmail.com">
+                        <i title="이메일" class="fa fa-envelope-square fa-2x" aria-hidden="true"></i>
+                    </a>
+                    <a target="_blank" href="https://open.kakao.com/o/sObWMpA">
+                        <i title="카카오톡" class="fa fa-comment fa-2x" aria-hidden="true"></i>
+                    </a>
+                <p>Powered By <a target="_blank" href="https://github.com/">Github</a></p>
+                <br /><br /><br /><br /><br />
+            </div>
+        </div>
+    </div>
+
+    <script>
+        'use strict';
+        var checkbox = document.querySelector('#checkbox'),
+        checkboxInput = checkbox.querySelector('#inputID');
+
+        checkboxInput.addEventListener('change', function (e) {
+        checkbox.classList.toggle('checkbox--unchecked', !e.target.checked);
+        checkbox.classList.toggle('checkbox--checked', e.target.checked);
+        });
+    </script>
 </body>
 </html>

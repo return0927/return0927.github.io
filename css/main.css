@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+body { font-family: 'Iropke Batang', serif; }
+
+
+
+.bodyText {
+    display: inline-block;
+    width: 80%;
+}
+
+.goButton {
+    margin-top: 10px;
+    width: 240px;
+    height: 32px;
+    background-color: transparent;
+    border: 2px solid #2ECEFE;
+}
+
+#buttonbuttonyeah{
+    display: inline-block;
+    width: 200px;
+}
