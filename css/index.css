@@ -80,6 +80,7 @@ a {
 
 #section-2 {
     background-image: url("../img/back-2.png");
+    background-size: auto 100vh;
     background-position: center;
     color: white;
 }
