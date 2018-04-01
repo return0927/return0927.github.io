@@ -1,0 +1,125 @@
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+
+body {
+    font-family: "NanumSquare", sans-serif;
+}
+
+.header {
+
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 10px;
+
+    position: absolute;
+
+    width: 100%;
+}
+
+.arrow-down {
+    cursor: pointer;
+
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    margin-top: 2px;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section-1 {
+    background-image: url("../img/back-1.png");
+    background-position: center;
+    color: #ffffff;
+}
+
+.head {
+    font-size: 2em;
+}
+
+.head .small {
+    font-size: 0.5em;
+}
+
+.top {
+    position: absolute;
+
+    top: 10px;
+    left: 10px;
+
+    text-align: initial;
+}
+
+.top .year {
+    font-size: 3em;
+}
+
+.active {
+    -webkit-animation: dissolve;
+    -o-animation: dissolve;
+    animation: dissolve;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+@keyframes dissolve {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+
+    border: 1px solid grey;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    padding: 5px;
+}
+
+.card .img_container {
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+
+    width: 200px;
+    height: 152px;
+}
+
+.card .img_container img {
+    display: inline-block;
+    margin: auto;
+    width: 200px;
+    height: 100%;
+}
+
+.title {
+    font-size: 1.05em;
+    font-weight: 600;
+    line-height: 1.5;
+}
