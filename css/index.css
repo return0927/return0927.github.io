@@ -23,13 +23,31 @@ a {
 }
 
 .introduce {
+    opacity: 0;
+    animation: dissolve;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+
     position: absolute;
-
     margin: 0;
-    left: 10px;
-    bottom: 10px;
-
+    bottom: 0;
     z-index: 10000000;
+    background-color: #444444;
+    padding: 10px;
+    border-radius: 0 10px 0 0;
+}
+
+.introduce a {
+    color: inherit;
+    margin: 0 5px;
+}
+
+.introduce a:nth-child(1) {
+    margin-left: 0;
+}
+
+.introduce a:nth-last-child(1) {
+    margin-right: 0;
 }
 
 .arrow-down {
