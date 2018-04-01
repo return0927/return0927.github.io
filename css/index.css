@@ -8,6 +8,10 @@ body {
 
 }
 
+a {
+    color: inherit;
+}
+
 .footer {
     margin-left: auto;
     margin-right: auto;
@@ -16,6 +20,16 @@ body {
     position: absolute;
 
     width: 100%;
+}
+
+.introduce {
+    position: absolute;
+
+    margin: 0;
+    left: 10px;
+    bottom: 10px;
+
+    z-index: 10000000;
 }
 
 .arrow-down {
@@ -44,6 +58,11 @@ body {
     background-image: url("../img/back-1.png");
     background-position: center;
     color: #ffffff;
+}
+
+#section-3 {
+    background-image: url("../img/back-3.png");
+    background-position: center;
 }
 
 .head {
@@ -77,6 +96,29 @@ body {
     animation-duration: 3s;
 }
 
+.active .card {
+    opacity: 0;
+    animation: dissolve;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+}
+
+.active .card:nth-child(1) {
+    animation-delay: .125s;
+}
+
+.active .card:nth-child(2) {
+    animation-delay: .25s;
+}
+
+.active .card:nth-child(3) {
+    animation-delay: .375s;
+}
+
+.active .card:nth-child(4) {
+    animation-delay: .5s;
+}
+
 @keyframes dissolve {
     0% {
         opacity: 0;
@@ -99,7 +141,12 @@ body {
     -moz-border-radius: 10px;
     border-radius: 10px;
 
+    margin: 10px;
     padding: 5px;
+}
+
+#section-3 .card {
+    border-color: black;
 }
 
 .card .img_container {
