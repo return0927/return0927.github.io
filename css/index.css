@@ -78,8 +78,20 @@ a {
     color: #ffffff;
 }
 
+#section-2 {
+    background-image: url("../img/back-2.png");
+    background-size: 1920px 1080px;
+    background-position: center;
+    color: white;
+}
+
 #section-3 {
     background-image: url("../img/back-3.png");
+    background-position: center;
+}
+
+#section-4 {
+    background-image: url("../img/back-4.png");
     background-position: center;
 }
 
@@ -154,7 +166,7 @@ a {
     height: 300px;
     width: 300px;
 
-    border: 1px solid grey;
+    border: 1px solid black;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
@@ -163,8 +175,8 @@ a {
     padding: 5px;
 }
 
-#section-3 .card {
-    border-color: black;
+#section-2 .card {
+    border-color: white;
 }
 
 .card .img_container {
